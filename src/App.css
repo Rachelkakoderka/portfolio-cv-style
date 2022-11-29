@@ -148,7 +148,7 @@ a {
     font-weight: bold;
 }
 
-.welcome h3 {
+.welcome h4 {
     color: #164b34;
 }
 
@@ -174,7 +174,7 @@ h3 {
 
 .project--tile {
     display: block;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 
 .footer {
@@ -183,7 +183,6 @@ h3 {
 }
 
 .footer-text {
-    /* text-align: end; */
-    
+       
 
 }
