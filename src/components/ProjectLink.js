@@ -4,9 +4,6 @@ export default function ProjectLink(prop){
 
         return ( 
         <a href={prop.link} target="_blank" className="project--link">
-          {/* <img  src = "assets/logo.PNG"
-                alt = "Rachelka-koderka logo" 
-                className="project-img" /> */}
           <p className="project--description">{prop.description}</p>
         </a>
     )
