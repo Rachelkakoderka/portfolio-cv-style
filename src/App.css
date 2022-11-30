@@ -90,7 +90,7 @@ a {
 .App {
     font-family: "Montserrat", sans-serif;
     display: grid;
-    grid-template: 3/2;
+    grid-template: 3 / 2;
     grid-template-columns: 1fr 3fr 3fr ;
     height: 100vh;
     gap: 10px;
@@ -106,7 +106,10 @@ a {
     align-items: center;
     padding-bottom: 3em;
 }
-
+.menu--header {
+  margin-left: 1em;
+  margin-right: 1em;
+}
 
 .menu--icons {
     display:flex;
@@ -119,18 +122,25 @@ a {
     display: block;
     margin: .25em;
     color:#212121b7;
-    
+    transition: transform 0.3s ease-out;
+}
+
+.icon-mail-alt {
+  font-size: 90% !important; 
+  margin-left: 3.5px;
 }
 
 
 .menu--contact-link:hover {
-    color: #164b34;
+    color: #212121;
+    transform: translateY(-5px);
 }
 
 .welcome {
     grid-column: 2/4;
     margin-top: 2em;
     text-align: center;
+    display: flex;
 }
 
 .welcome--name-box {
@@ -138,10 +148,22 @@ a {
     border-radius: 3px;
     background-color: white;
     width: fit-content;
+    height: fit-content;
     padding: 2.3em 4em;
     position: relative;
     right: 4em;
+    margin-right: 3em;
 }
+
+@media (max-width: 600px) {
+  .welcome--name-box {
+  position: relative;
+  right: 40;
+  margin-left: 2em;
+  margin-right: 2em;
+  }
+}
+
 .welcome h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -155,6 +177,8 @@ a {
 .projects {
     padding:2em;
     grid-column: 2/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .projects > * {
     margin-bottom: 20px;
@@ -172,11 +196,15 @@ h3 {
   
 }
 
-.project--tile {
+.project--link {
     display: block;
-    padding: 6px 0;
+    padding: 5px 0;
 }
 
+.projects--tile {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
 .footer {
     /* grid-column: 
     grid-row:  */
