@@ -2,68 +2,83 @@ export default [
 	{
 		id: 1,
 		show: true,
-		link: "https://github.com/Rachelkakoderka/ClassicalArt-Memory-Game",
-		description: "ClassicalArt Memory Game (Vanilla js)"
+		link: "https://konradgalach.link",
+		title: "ClassicalArt Memory Game (Vanilla js)",
+		description: {
+			tech: "Vanilla JS",
+			inspiration: "my own"
+			
+		}
 	},
 	{
 		id: 2,
 		show: true,
 		link: "https://github.com/Rachelkakoderka/Battleship-game",
-		description: "Battleship Game (Vanilla js)" 
+		title: "Battleship Game (Vanilla js)" ,
+		description: {}
 	},
 	{
 		id: 3,
 		show: true,
 		link: "https://github.com/Rachelkakoderka/Businnes-card",
-		description: "Business Card (React)"
+		title: "Business Card (React)",
+		description: {}
 	},
 	{
 		id: 4,
 		show: false,
 		link: "./battleship-game/battleshipAG.html",
-		description: "ClassicalArt Memory Game (Vanilla js)"
+		title: "ClassicalArt Memory Game (Vanilla js)",
+		description: {}
 	},
 	{
 		id: 5,
 		show: true,
 		link: "https://github.com/Rachelkakoderka/travel-journal",
-		description: "Travel Journal (React)"
+		title: "Travel Journal (React)",
+		description: {}
 	},
 	{
 		id: 6,
-		show: true,
+		show: false,
 		link: "https://freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/javascript-algorithms-and-data-structures",
-		description: "freeCodeCamp.org certification in javascript"
+		title: "freeCodeCamp.org certification in javascript",
+		description: {}
 	},
 	{
 		id: 7,
-		show: true,
+		show: false,
 		link: "https://www.freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/responsive-web-design",
-		description: "freeCodeCamp.org certification in RWD"
+		title: "freeCodeCamp.org certification in RWD",
+		description: {}
 	},
 	{
 		id: 8,
 		show: true,
 		link: "https://codepen.io/rachelkakoderka/pen/bGrNqLm",
-		description: "Survey form"
+		title: "Survey form",
+		description: {}
 	},
 	{
 		id: 9,
 		show: false,
 		link: "https://codepen.io/rachelkakoderka/pen/WNOPWPg",
-		description: "Tribute page"
+		title: "Tribute page",
+		description: {}
 	},
     {
 		id: 10,
 		show: false,
 		link: "https://codepen.io/rachelkakoderka/pen/qBXZOaX",
-		description: "Product landing page"
+		title: "Product landing page",
+		description: {}
 	},
     {
 		id: 11,
 		show: false,
 		link: "https://codepen.io/rachelkakoderka/pen/eYEZRXW",
-		description: "Technical documentation page"
+		title: "Technical documentation page",
+		description: {}
 	},
     
 ];

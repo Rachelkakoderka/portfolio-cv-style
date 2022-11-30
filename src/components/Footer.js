@@ -8,6 +8,7 @@ export default function Footer() {
       <p className="footer-text">
         Created by Aleksandra Gałach 2022. All rights reserved.
       </p>
+
     </footer>
 
      

@@ -3,16 +3,7 @@ import React from "react";
 export default function Menu() {
   return (
     <nav className="menu">
-      <h3 className="menu--header">CERTIFICATES</h3>
-      <div className="menu-certificates">
-        <a
-          href="https://www.credly.com/badges/a9df6862-1bc6-4984-aced-5d8ed8c64fa0/public_url"
-          target="_blank"
-          className="menu--certificate-link"
-        >
-          AgilePM Foundation
-        </a>
-      </div>
+      
 
       <h3 className="menu--header">CONTACT</h3>
       <div className="menu--icons">
@@ -27,14 +18,14 @@ export default function Menu() {
         <a
           href="https://github.com/Rachelkakoderka"
           target="_blank"
-          class="menu--contact-link"
+          className="menu--contact-link"
         >
           <i className="icon-github-squared"></i>
         </a>
 
         <a
           href="https://www.linkedin.com/mwlite/in/aleksandra-ga%C5%82ach-b9617a8a"
-          class="menu--contact-link"
+          className="menu--contact-link"
           target="_blank"
         >
           <i className="icon-linkedin-squared"></i>
@@ -47,6 +38,12 @@ export default function Menu() {
         >
           <i className="icon-facebook-squared"></i>
         </a>
+      </div>
+
+      <div className="menu--languages">
+        <h3 className="menu--header">LANGUAGES</h3>
+        <p>English</p>
+        <p>Polish</p>
       </div>
     </nav>
   );

@@ -40,14 +40,14 @@ export default [
 	},
 	{
 		id: 6,
-		show: true,
+		show: false,
 		link: "https://freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/javascript-algorithms-and-data-structures",
 		title: "freeCodeCamp.org certification in javascript",
 		description: {}
 	},
 	{
 		id: 7,
-		show: true,
+		show: false,
 		link: "https://www.freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/responsive-web-design",
 		title: "freeCodeCamp.org certification in RWD",
 		description: {}
