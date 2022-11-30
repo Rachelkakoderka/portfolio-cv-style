@@ -91,9 +91,10 @@ a {
     font-family: "Montserrat", sans-serif;
     display: grid;
     grid-template: 3 / 2;
-    grid-template-columns: 1fr 3fr 3fr ;
+    grid-template-columns: 1fr 2fr 3fr;
     height: 100vh;
     gap: 10px;
+    height: 100vh;
 }
 
 .menu {
@@ -116,13 +117,14 @@ a {
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 1em;
     /* align-items: center; */
 }
 
 .menu--contact-link {
     display: block;
     margin: .25em;
-    color:#212121b7;
+    color:#2121217a;
     transition: transform 0.3s ease-out;
 }
 
@@ -134,7 +136,7 @@ a {
 
 .menu--contact-link:hover {
     color: #212121;
-    transform: translateY(-5px);
+    transform: scale(1.1);
 }
 
 .menu--languages  {
@@ -181,10 +183,12 @@ a {
 
 .projects {
     padding:2em;
-    grid-column: 2/-1;
+    grid-column: 2/4;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    grid-template-rows: repeat(3, auto) ;
 }
+
 .projects > * {
     margin-bottom: 20px;
 
@@ -198,10 +202,16 @@ h3 {
     display: block;
 }
 
+h4 {
+  font-size: .90em;
+  margin: 1em 0;
+}
+
 .project--link {
     display: block;
     width: fit-content;
     padding: 5px 0;
+    cursor: pointer;
     
     
 }
@@ -224,8 +234,10 @@ h3 {
 } */
 
 .projects--tile {
-  grid-row: 1/3;
-  grid-column: 2/3;
+  
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  
  
 }
 
@@ -235,17 +247,30 @@ h3 {
 }
 
 .projects-tile--content p {
-  display: ;
-}
-.project-tile--button {
-  display: block;
+  font-size: .8em;
+  text-transform: none;
 }
 
-.projects-certificates {
+.projects-tile--content:first-child  {
+  text-transform: uppercase;
+}
+
+.projects-tile--buttons {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.projects-tile--button {
+  display: block;
+  max-width: 50%;
+  margin: 1em 10px;
+}
+
+.projects--certificates {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  
+ 
 }
 
 .projects--certificate-link {
@@ -259,11 +284,19 @@ h3 {
  
   font-weight: 700;
 }
+
+.placeholder {
+  grid-row: 1 / 3;
+  grid-column: 3 / 4;
+}
+
 .footer {
   /* Change */
+      
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    
 }
 
 .footer-text {

@@ -6,13 +6,19 @@ import ProjectTile from "./ProjectTile";
 export default function Projects() {
   const [projectTile, setProjectTile] = React.useState("");
 
+  let data = projectsData;
+
+
   function showProject(project) {
-    console.log(project.target.innerText);
+  
     let projectName = project.target.innerText;
-    return setProjectTile(projectName);
+    let foundProject = data.filter(x=> x.title === projectName);
+    let chosenProject = foundProject[0];
+    
+    return setProjectTile(chosenProject);
   }
 
-  let data = projectsData;
+  
 
   const projectsToShow = data
     .filter((x) => x.show === true)
@@ -35,11 +41,13 @@ export default function Projects() {
         <p>from code of laws to laws of code</p>
       </div>
 
-
+      <div className="placeholder"></div>
 
 
       <div className="projects--tile">
-        { projectTile ? <ProjectTile description={projectTile} closeButton={() => setProjectTile("")} /> : ""}
+        { projectTile ? <ProjectTile 
+        chosenProject={projectTile}
+        closeButton={() => setProjectTile("")} /> : ""}
       </div>
 
 
