@@ -2,36 +2,39 @@ export default [
 	{
 		id: 1,
 		show: true,
+		linkText: "Click here to play!",
 		link: "https://konradgalach.link",
 		title: "ClassicalArt Memory Game",
 		description: {
 			technology: "Vanilla JS, CSS, HTML5",
 			inspiration: "my own",
-			fullDescription: "Simple memory game with art pieces as cards. In the feature I plan to re-write the game in React and add new features such as: keeping best score, different difficulty levels and option to restart the game. You can play it online - just click the button below."
+			fullDescription: "Simple memory game with art pieces as cards written in pure Javascript. In the feature I plan to re-write the game in React and add new features such as: keeping best score, different difficulty levels and option to restart the game. You can play it online - just click the link below."
 			
 		}
 	},
 	{
 		id: 2,
 		show: true,
+		linkText: "GitHub repository",
 		link: "https://github.com/Rachelkakoderka/Battleship-game",
 		title: "Battleship Game" ,
 		description: {
-			technology: "Vanilla JS, HTML5",
+			technology: "Vanilla JS, HTML5, CSS",
 			inspiration: "my own",
-			fullDescription: "My very first project based partially on the material from the book 'Head First: Javascript Programming'. "
+			fullDescription: "My very first project recreated step-by-step based on the material from the book 'Head First: Javascript Programming'."
 			
 		}
 	},
 	{
 		id: 3,
 		show: true,
+		linkText:  "GitHub repository",
 		link: "https://github.com/Rachelkakoderka/Businnes-card",
 		title: "Business Card",
 		description: {
-			technology: "React",
+			technology: "React, HTML5, CSS",
 			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
+			fullDescription: "This was my first react project created all by myself during React course I took on Scrimba.com. I slightly modified the mockup so that it could serve as my portfolio site. Turns out I had better ideas, don't you think?"
 			
 		}
 	},

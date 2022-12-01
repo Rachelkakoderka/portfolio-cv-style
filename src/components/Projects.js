@@ -44,7 +44,7 @@ export default function Projects() {
       <div className="placeholder"></div>
 
 
-      <div className={projectTile ? "activeProject projects--tile" : "projects--tile"}
+      <div className={projectTile ? "activeProject projects--tile" : "projects--tile                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "}
       
       
         >
