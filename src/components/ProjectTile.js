@@ -13,17 +13,23 @@ export default function ProjectTile(prop) {
       <h4> TECHNOLOGY:</h4>
       <p>{prop.chosenProject.description.technology}  </p>
 
+      <h4> LINK:</h4>
+      <a href={prop.chosenProject.link}>Available on</a>
+      Halo 
+
      <div className="projects-tile--buttons">
-      <a href={prop.chosenProject.link} 
-       className="projects-tile--button" > 
-        <button>Link
+
+     <a href={prop.chosenProject.link}>   
+        <button className="projects-tile--button">
+        <h4>open</h4>
         </button>
-        </a>
+      </a>
+      
       
       <button 
         className="projects-tile--button" 
         onClick={prop.closeButton}>
-        Close
+        close
       </button>
 
         </div>    
