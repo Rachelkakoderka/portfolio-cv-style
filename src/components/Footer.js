@@ -6,7 +6,7 @@ export default function Footer() {
            
     <footer>
       <p className="footer-text">
-        Created by Aleksandra Gałach 2022. All rights reserved.
+        <a href="#">Aleksandra Gałach</a> 2022. All rights reserved.
       </p>
 
     </footer>

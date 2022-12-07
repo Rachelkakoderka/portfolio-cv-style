@@ -34,105 +34,35 @@ export default [
 		description: {
 			technology: "React, HTML5, CSS",
 			inspiration: "my own",
-			fullDescription: "This was my first react project created all by myself during React course I took on Scrimba.com. I slightly modified the mockup so that it could serve as my portfolio site. Turns out I had better ideas, don't you think?"
+			fullDescription: "This was my first react project created all by myself during React course I took on Scrimba.com. I slightly modified the mockup so that it could serve as my portfolio site. I did not have to use it, because I had better idea."
 			
 		}
 	},
 	{
 		id: 4,
-		show: false,
-		link: "./battleship-game/battleshipAG.html",
-		title: "ClassicalArt Memory Game",
+		show: true,
+		linkText: "GitHub repository",
+		link: "https://github.com/Rachelkakoderka/travel-journal",
+		title: "Travel Journal",
 		description: {
-			technology: "Vanilla JS",
+			technology: "React",
 			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
+			fullDescription: "This is quick solo project in React proposed in the course on Scrimba.com, which purpose was to excercise creating app with reusable components, that generate based on data received from file."
 			
 		}
 	},
 	{
 		id: 5,
 		show: true,
-		link: "https://github.com/Rachelkakoderka/travel-journal",
-		title: "Travel Journal",
-		description: {
-			technology: "React",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-	{
-		id: 6,
-		show: false,
-		link: "https://freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/javascript-algorithms-and-data-structures",
-		title: "freeCodeCamp.org certification in javascript",
-		description: {
-			technology: "Vanilla JS",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-	{
-		id: 7,
-		show: false,
-		link: "https://www.freecodecamp.org/certification/fccd924f8fe-ae7b-4a35-9ac0-e799be6ea970/responsive-web-design",
-		title: "freeCodeCamp.org certification in RWD",
-		description: {
-			technology: "Vanilla JS",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-	{
-		id: 8,
-		show: true,
+		linkText: "GitHub repository",
 		link: "https://codepen.io/rachelkakoderka/pen/bGrNqLm",
 		title: "Survey form",
 		description: {
-			technology: "Vanilla JS",
+			technology: "HTML5, CSS",
 			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
+			fullDescription: "One of projects created by me to to get a certificate in Responsie Web Design from freeCodeCamp.org"
 			
 		}
 	},
-	{
-		id: 9,
-		show: false,
-		link: "https://codepen.io/rachelkakoderka/pen/WNOPWPg",
-		title: "Tribute page",
-		description: {
-			technology: "Vanilla JS",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-    {
-		id: 10,
-		show: false,
-		link: "https://codepen.io/rachelkakoderka/pen/qBXZOaX",
-		title: "Product landing page",
-		description: {
-			technology: "Vanilla JS",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-    {
-		id: 11,
-		show: false,
-		link: "https://codepen.io/rachelkakoderka/pen/eYEZRXW",
-		title: "Technical documentation page",
-		description: {
-			technology: "Vanilla JS",
-			inspiration: "my own",
-			fullDescription: "I created the game as a challenge "
-			
-		}
-	},
-    
+	   
 ];

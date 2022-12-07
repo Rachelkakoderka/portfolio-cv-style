@@ -38,16 +38,13 @@ export default function Projects() {
     <section className="projects">
       <div className="projects--bio">
         <h3>PROFILE</h3>
-        <p>from code of laws to laws of code</p>
+        <p>from codes of law to laws of code</p>
       </div>
 
       <div className="placeholder"></div>
 
 
-      <div className={projectTile ? "activeProject projects--tile" : "projects--tile                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "}
-      
-      
-        >
+      <div className={projectTile ? "activeProject projects--tile" : "projects--tile"}>
         { projectTile ? <ProjectTile 
         chosenProject={projectTile}
         closeButton={() => setProjectTile("")} /> : ""}
